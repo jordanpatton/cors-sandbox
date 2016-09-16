@@ -32,4 +32,4 @@ Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: http://www.example.com
 ```
 
-As you can see, CORS can be enabled per-origin at the point where the request is parsed.
+As you can see, [CORS can be enabled per-origin](http://www.html5rocks.com/en/tutorials/cors/#toc-adding-cors-support-to-the-server) at the point where the request is parsed.
