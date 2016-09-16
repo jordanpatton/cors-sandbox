@@ -1,6 +1,7 @@
 # CORS Sandbox
 
 Go to [example.com](http://www.example.com), open your browser console, and enter this:
+
 ```javascript
 function requestWithCors(method, url, successCallback, failureCallback) {
   successCallback = successCallback || console.log;
@@ -22,11 +23,13 @@ function requestWithCors(method, url, successCallback, failureCallback) {
 ```
 
 In the same console, enter this:
+
 ```javascript
 requestWithCors('GET', 'http://localhost:3000');
 ```
 
-If you inpect your network traffic, you should see a response with the following headers:
+If you inspect your network traffic, you should see a response with the following headers:
+
 ```
 Access-Control-Allow-Credentials: true
 Access-Control-Allow-Origin: http://www.example.com
