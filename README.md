@@ -36,7 +36,7 @@ function requestWithCors(method, url, successCallback, failureCallback) {
 In the same console, enter this:
 
 ```javascript
-requestWithCors('GET', 'http://localhost:3000');
+requestWithCors('GET', 'http://localhost:3000?username=john&password=madden');
 ```
 
 If you inspect your network traffic, you should see a response with the following headers:
@@ -47,3 +47,8 @@ Access-Control-Allow-Origin: http://www.example.com
 ```
 
 As you can see, [CORS can be enabled per-origin](http://www.html5rocks.com/en/tutorials/cors/#toc-adding-cors-support-to-the-server) at the point where the request is parsed.
+
+### Questions
+
+**Q:** What do I do if I get `500 Internal Server Error`?
+**A:** Stop the server (Ctrl + C). Start the server (`node app.js`). In your browser, [hard reload](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache).
