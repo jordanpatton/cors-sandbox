@@ -1,5 +1,16 @@
 # CORS Sandbox
 
+### Installation (requires [node](https://nodejs.org))
+
+```bash
+git clone https://github.com/jordanpatton/cors-sandbox.git
+cd cors-sandbox
+npm install
+node app.js
+```
+
+### Usage
+
 Go to [example.com](http://www.example.com), open your browser console, and enter this:
 
 ```javascript
