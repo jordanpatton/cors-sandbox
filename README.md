@@ -52,4 +52,4 @@ As you can see, [CORS can be enabled per-origin](http://www.html5rocks.com/en/tu
 
 **Q:** What do I do if I get `500 Internal Server Error`?
 
-**A:** Stop the server (`Ctrl + C`). Start the server (`node app.js`). In your browser, [hard reload](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache).
+**A:** Stop your server (`Ctrl + C`) and restart it (`node app.js`). In your browser, [hard reload](https://en.wikipedia.org/wiki/Wikipedia:Bypass_your_cache).
